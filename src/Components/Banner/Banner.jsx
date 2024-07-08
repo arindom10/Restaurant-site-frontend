@@ -68,6 +68,13 @@ const Banner = () => {
           className="max-w-[200px]"
         />
       </div>
+      <div className="absolute top-1/2 -translate-y-1/2 left-1/3 -translate-x-1/2 opacity-50 sm:opacity-100">
+        <img
+          src="https://i.ibb.co/VtFKWMB/kiwi.png"
+          alt=""
+          className="max-w-[180px]"
+        />
+      </div>
     </div>
   );
 };
