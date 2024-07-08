@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Components/Navbar/Navbar";
 import Header from "./Components/Header/Header";
 import Banner from "./Components/Banner/Banner";
+import WhyChooseUs from "./Components/WhyChooseUs/WhyChooseUs";
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <Navbar />
       <Header />
       <Banner />
+      <WhyChooseUs />
     </div>
   );
 };
