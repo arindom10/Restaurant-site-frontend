@@ -49,19 +49,19 @@ const Navbar = ({ handlePopup }) => {
               <li key={id}>
                 <a
                   href={link}
-                  className="inline-block hover:text-primary text-xl font-semibold"
+                  className="hidden sm:inline-block hover:text-primary text-xl font-semibold"
                 >
                   {name}
                 </a>
               </li>
             ))}
-            <li className="cursor-pointer group ">
+            <li className="hidden sm:block cursor-pointer group ">
               <a
                 href="/#"
                 className="inline-block hover:text-primary text-xl font-semibold"
               >
                 <div className="flex items-center gap-[2px] py-2">
-                  Dropdown
+                  Category
                   <span>
                     <FaCaretDown className="group-hover:rotate-180 duration-300" />
                   </span>
@@ -85,7 +85,7 @@ const Navbar = ({ handlePopup }) => {
             {/* Login Button Section */}
             <button
               onClick={handlePopup}
-              className="flex justify-center items-center gap-2 duration-300 bg-secondary text-xl h-[40px] text-white px-5 py-2 hover:scale-105"
+              className="flex justify-center items-center gap-2 duration-300 bg-secondary text-xl h-[40px] text-white px-2 md:px-5 py-2 hover:scale-105"
             >
               <FaUser />
               My Account
