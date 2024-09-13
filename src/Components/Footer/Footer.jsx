@@ -34,9 +34,9 @@ const Footer = () => {
             <div className="flex justify-center">
               <FaPhone className="text-5xl" />
             </div>
-            <p>+91 9643224232 - Sales and Services</p>
-            <p>+91 9623423436 - Hiring Queries </p>
-            <p>+91 2345232445 - Whatsapp</p>
+            <p>+880 1756467670 - Sales and Services</p>
+            <p>+880 1716213091 - Hiring Queries </p>
+            <p>+880 1735049535 - Whatsapp</p>
           </div>
         </div>
         <div className="flex justify-center items-center p-4 gap-6">
