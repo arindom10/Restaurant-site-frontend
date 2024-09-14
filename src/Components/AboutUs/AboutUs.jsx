@@ -37,7 +37,7 @@ const AboutUs = ({ handlePopup }) => {
           Mollitia consequatur quas impedit ea eligendi! Sed consectetur sunt
           culpa labore, nemo assumenda asperiores iure repellat dolorem impedit
           quas repellendus aspernatur facere praesentium sit dolores
-          consequatur.
+          consequaturs.
           <div className="pt-10 flex justify-center">
             <button
               onClick={handlePopup}
